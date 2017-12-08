@@ -1,6 +1,6 @@
 {
   "name": "react-app-rewire-postcss-cssnext",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add the postccs-cssnext plugin to your create-react-app via react-app-rewired",
   "main": "index.js",
   "files": [
@@ -23,14 +23,12 @@
   "license": "MIT",
   "homepage": "https://github.com/Ehres/react-app-rewire-postcss-cssnext",
   "dependencies": {
-    "postcss-cssnext": "^3.0.2"
-  },
-  "peerDependencies": {
-    "postcss": "^6.0.9",
+    "lodash.clonedeep": "^4.5.0",
+    "postcss-cssnext": "^3.0.2",
     "postcss-import": "^11.0.0",
     "postcss-url": "^7.3.0"
   },
-  "devDependencies": {
-    "lodash.clonedeep": "^4.5.0"
+  "peerDependencies": {
+    "postcss": "^6.0.9"
   }
 }
