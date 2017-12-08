@@ -1,0 +1,36 @@
+{
+  "name": "react-app-rewire-postcss-cssnext",
+  "version": "0.1.0",
+  "description": "Add the postccs-cssnext plugin to your create-react-app via react-app-rewired",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ehres/react-app-rewire-postcss-cssnext.git"
+  },
+  "keywords": [
+    "webpack",
+    "react-app-rewired",
+    "create-react-app",
+    "postcss",
+    "postcss-cssnext",
+    "cssnext",
+    "css"
+  ],
+  "author": "Maxime Grébauval",
+  "license": "MIT",
+  "homepage": "https://github.com/Ehres/react-app-rewire-postcss-cssnext",
+  "dependencies": {
+    "postcss-cssnext": "^3.0.2"
+  },
+  "peerDependencies": {
+    "postcss": "^6.0.9",
+    "postcss-import": "^11.0.0",
+    "postcss-url": "^7.3.0"
+  },
+  "devDependencies": {
+    "lodash.clonedeep": "^4.5.0"
+  }
+}
